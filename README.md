@@ -1,5 +1,6 @@
 ```rails
 rails new blog
+rails route
 rails server
 ```
 
