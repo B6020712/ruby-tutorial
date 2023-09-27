@@ -5,9 +5,8 @@
 <ul>
     <% @articles.each do |article| %>
         <li>
-            <a href="/articles/<%= article.id %>">
-                <%= article.title %>
-            </a>
+            <!--# link_to is helper, it render 2 argument, the first is link's text and second is link's destination -->
+            <%= link_to article.title, article %>
         </li>
     <% end %>
 </ul>
