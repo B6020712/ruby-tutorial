@@ -1,3 +1,5 @@
+###### Following tutorials => https://guides.rubyonrails.org/getting_started.html
+
 ```rails
 rails new blog
 rails route
